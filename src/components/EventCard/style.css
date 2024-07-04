@@ -1,0 +1,12 @@
+.eventCard {
+  width: 100%;
+  padding: 0 20px;
+  font-size: 18px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 40px;
+  background: #054a81;
+  border-radius: 8px;
+}

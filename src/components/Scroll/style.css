@@ -1,0 +1,26 @@
+.scrollContainer {
+  width: 100%;
+  height: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  scroll-snap-type: x mandatory;
+  overscroll-behavior-x: none;
+  
+  /* IE и Edge */
+  -ms-overflow-style: none;
+  /* Firefox */
+  scrollbar-width: none;
+}
+
+.scrollContainer::-webkit-scrollbar {
+  /* Chrome, Safari, Opera */
+  display: none;
+}
+
+.columnContainer {
+  flex-shrink: 0;
+}
+
